@@ -1,0 +1,532 @@
+
+
+/* index,display all,contact  pages */
+
+
+
+*{
+    margin: 0;
+}
+
+
+
+/* nav-bar */
+.custom-navbar-color {
+    background-color:rgba(5, 125, 139,0.1);
+  }
+
+.custom-navbar-color-spec {
+    background-color:#057D8B;
+  }
+
+.navbar-nav .nav-link {
+margin-right: 13vh;
+margin-left: 14vh;
+
+}
+
+
+/* video */
+.video {
+    width: 98.7vw;
+    top: 0;
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    top:0 ;
+    width: 97.4vw;
+    height: 500vh;
+}
+
+
+.header-img{
+    /* width: 97.4vw; */
+    width: 98.7vw;
+    top: 0;
+    margin-top: -60px;
+    border: none;
+    /* height: 70vh; */
+    height: 90vh;
+    /* position: absolute; */
+}
+
+
+
+
+/* place */
+.touristic{
+    height: 100vh;
+    /* border: red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.justufy-content{
+    /* border:blue solid; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div-father{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* border: blue solid; */
+}
+
+.touristic-title-div{
+    height: 10vh;
+    /* width: 95vw; */
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: green solid; */
+}
+
+.touristic-title-div-spec{
+    height: 10vh;
+    /* width: 95vw; */
+    width: 90vw;
+    text-align: end;
+}
+
+.touristic-title-div h5{
+    color: #057D8B;
+}
+
+.touristic-title-div-spec h5{
+    color: #057D8B;
+}
+
+.display-all-btn{
+    border: none;
+    padding: 8px;
+    width: 8vw;
+    border-radius: 30px;
+    background-color: #057D8B;
+    color: white;
+    text-align: center;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* cards */
+
+.cards-bg{
+    width: 98vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 127, 140,0.16);
+    /* border: gold solid; */
+}
+
+.cards-div{
+    /* border: red solid; */
+    /* width: 95vw;     */
+    width: 90vw;   
+    direction: rtl; 
+}
+
+
+.img-size{
+    /* width:246px; */
+    width:100%;
+    height: 190px;
+    border-radius: 2%;
+}
+
+
+.card-bottom{
+    width: 18vw;
+    display: flex;
+    justify-content: space-between;
+    /* border: green solid; */
+}
+
+.card-bottom p{
+    color:#057D8B;
+    font-size: 14px;
+}
+
+.card-content{
+    /* border: blue solid; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-content a{
+    text-decoration: none;
+    color: #3F3D3D;
+}
+
+
+.card-title{
+  color: #3F3D3D;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card-text{
+    color: #3F3D3D;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+
+.part-bottom-div{
+    /* border: gold solid; */
+    height: 20vh;
+    /* display: flex; */
+  
+}
+
+.hr-div{
+    /* border: red solid; */
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-card-buttom{
+    /* border: blue solid; */
+    display: flex;
+    justify-content: center;    
+}
+
+/* arrow style */
+.arrow {
+    border: solid #057D8B;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+/* shadow */
+.box{
+    transition: box-shadow .3s;
+    border-radius: 6px;
+}
+
+.box:hover {
+    box-shadow: 0 0 7px rgb(23, 23, 23); 
+  }
+/* end place */
+
+
+
+/* Footer */
+.footer{
+    
+    display: flex;
+    /* border: red solid; */
+    height: 70vh;
+    align-items: end;
+}
+
+.footer-img{
+    height:40vh ; 
+    width: 100%;
+    position: absolute;
+}
+
+.footer-div{
+    /* border: green solid; */
+    height: 40vh;
+    width: 100%;
+}
+
+.footer-div p{
+    position: relative;
+}
+
+.copyright-div{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+    width: 15vw;
+    color: #E7F2F4;
+}
+
+
+/* contact page */
+.contact-div{
+    /* border: red solid; */
+    height: 25vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.contact-title{
+    /* border: blue solid; */
+    height: 10vh;
+    width: 15vw;
+    color: #057D8B;
+}
+
+
+.contact-grid-div{
+    /* border: gold solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-grid{
+    /* border: blue solid; */
+    height: 80vh;
+    width: 85vw;
+    display: grid;
+    direction: rtl;
+    gap: 50px;
+    /* grid-template-columns: 30% 70%; */
+    grid-template-columns: 0.8fr 2.5fr;
+}
+
+
+.right-part{
+    /* border: red solid; */
+    /* border-radius: 35px; */
+    background-color: rgba(5, 125, 139,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-part{
+    /* border: green solid; */
+    background-color: #E7F2F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-part-div{
+    /* border: green solid; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-part-div-div{
+    /* border: blue solid; */
+    height: 60vh;
+}
+
+.right-part-div-justify{
+    /* border: red solid; */
+    height: 25vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-part-div-justify p{
+    font-weight: bold;
+    color: rgb(13, 13, 13);
+}
+
+
+.left-part-content{
+    /* border: red solid; */
+    width: 40vw;
+    height: 20vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    direction: rtl;
+}
+
+.btn-contavt-div{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contavt-div-div{
+    /* border: green solid; */
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* guide page */
+.guide-div{
+    /* border: red solid; */
+    height: 25vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.guide-title{
+    /* border: blue solid; */
+    height: 10vh;
+    width: 16vw;
+    color: #057D8B;
+}
+
+
+.guide-grid-div{
+    /* border: gold solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.guide-grid{
+    /* border: blue solid; */
+    height: 50vh;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    /* display: grid; */
+    /* direction: rtl; */
+    gap: 50px;
+    /* grid-template-columns: 30% 70%; */
+    /* grid-template-columns: 4fr 1fr; */
+}
+
+
+.guide-left-part{
+    /* border: red solid; */
+    height: 50vh;
+    /* background-color: rgba(5, 125, 139,0.5); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-right-part{
+    /* border: green solid; */
+    border-radius: 35px;
+    width: 47vw;
+    background-color: #E7F2F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-part-content{
+    /* border: red solid; */
+    width: 40vw;
+    height: 15vw ;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 35px;
+    justify-content: space-around;
+    direction: rtl;
+}
+
+.guide-img{
+    height: 50vh;
+    width: 30vw;
+    border-radius: 35px;
+}
+
+
+/* register-page */
+
+.register{
+    /* border: red solid; */
+    height: 25vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+.register-div{
+    /* border: green solid; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.register-content-div{
+    /* border: blue solid; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    height: 80vh;
+    width: 80vw;
+}
+
+.register-p1{
+    /* border: gold solid; */
+    background-image: url("https://i.pinimg.com/564x/11/ac/32/11ac32ea7e4344e14d97af4d7e337372.jpg");
+    width:40%;
+}
+
+.register-p2{
+    /* border:black solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#E7F2F4 ;
+    width:75%;
+}
+
+.form{
+    direction: rtl;
+    /* border: gold solid; */
+    width: 40vw;
+    height: 60vh;
+}
+
+.sign-up-div{
+    /* border: black solid; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sign-up-div p {
+    color: #057D8B;
+}
+
+
+
+.sign-up-btn{
+    text-decoration: none;
+    
+}
+
+.sign-in-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
